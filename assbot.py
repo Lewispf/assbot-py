@@ -48,7 +48,7 @@ def next (id):
             coro = bot.voice_client_in(bot.get_server(id)).disconnect()
             asyncio.run_coroutine_threadsafe(coro, bot.loop)
 
-DiscordApiKey = "NTE4NzkxNzYwMzAyODMzNjg1.Du04ZQ.7Ole6CQc_VZSv5PC3fACm-sjWsc"
+DiscordApiKey = "NTE4NzkxNzYwMzAyODMzNjg1.Dvam6w.tKUAHjNP3dHc4CZbth0lxcfFpLs"
 
 chars = ["%", "&", "?", "*", ";", "#"]
 
